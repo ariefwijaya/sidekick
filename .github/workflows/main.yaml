@@ -1,8 +1,10 @@
 name: Build (Linux, Mac OS, Windows)
 
-on:
-  push:
-    branches: [main]
+on: workflow_dispatch
+
+# on:
+#   push:
+#     branches: [main]
 
 jobs:
   build-linux:
