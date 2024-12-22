@@ -37,7 +37,7 @@ class ReleasesScreen extends ConsumerWidget {
                 child: Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                    color: Colors.deepOrange.withOpacity(0.1),
+                    color: Colors.deepOrange.withValues(alpha: 0.1),
                     border: Border.all(
                       color: Colors.deepOrange,
                       width: 0.5,

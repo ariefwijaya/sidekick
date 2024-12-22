@@ -190,8 +190,6 @@ class FvmQueueState extends StateNotifier<FvmQueue> {
             ),
           );
           break;
-        default:
-          break;
       }
     } on Exception catch (e) {
       notifyError(e.toString());
